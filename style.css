@@ -413,3 +413,14 @@ main p {
     text-align: justify;     /* deixa o texto alinhado nas bordas */
     text-indent: 35px;       /* recuo no início do parágrafo */
 }
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main ul li {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    gap: 8px; /* Espaço entre marcador e texto, se houver ícone */
+    margin: 5px 0;
+}
